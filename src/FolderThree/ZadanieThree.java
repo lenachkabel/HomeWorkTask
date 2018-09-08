@@ -9,11 +9,11 @@ public class ZadanieThree {
             System.out.println(Arrays.toString(array));
 
             int temp = array[0];
-            array[0] = array[9];
-            array[9] = temp;
+            array[0] = array[array.length -1];
+            array[array.length -1] = temp;
         }
         System.out.println(array[0]);
-        System.out.println(array[9]);
+        System.out.println(array[array.length -1]);
     }
 
 }
